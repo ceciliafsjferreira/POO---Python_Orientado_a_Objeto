@@ -9,7 +9,6 @@ class Biscoito:
         else:
             return 'O biscoito está cru'
 
-
 biscoito1 = Biscoito()
 biscoito1.sabor = str(input('Digite o sabor do biscoito:'))
 biscoito1.peso = float(input('Digite o peso de uma unidade de biscoito em gramas:'))
@@ -21,3 +20,4 @@ else:
 
 print(biscoito1.verificar_estado())
 
+print(biscoito1)
